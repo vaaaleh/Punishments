@@ -1,0 +1,12 @@
+MONGO:
+  HOST: localhost
+  PORT: 27017
+  DATABASE_NAME: Punishments
+
+LANG:
+  KICK: "&cYou were kicked by a staff member.\nReason: &e{reason}"
+  BAN:
+    KICK: "&cYour account is {context} from the network.{temporary}"
+    TEMPORARY: "\n&cThis punishment expires in &e{time-remaining}&c."
+  BROADCAST: "&r{target} &chas been {context} by &r{sender}"
+  BROADCAST_SILENT: "&7[Silent] &r{target} &chas been {context} by &r{sender}"

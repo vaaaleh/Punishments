@@ -1,0 +1,15 @@
+name: Punishments
+version: '${project.version}'
+main: dev.vaaaleh.punishments.PunishmentsPlugin
+commands:
+  history:
+    aliases: hist
+  ban:
+  kick:
+  mute:
+  unban:
+  unmute:
+  blacklist:
+  unblacklist:
+
+
